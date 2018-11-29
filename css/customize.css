@@ -1,0 +1,109 @@
+/* GENERAL
+____________________________________________________________________ */
+
+
+#top .inside, .header .inside, #footer .inside, #bottom .inside, body.sidebar #container, #main .mod_article:not(.autogrid), .fullwidth.boxed-content .contentwrap, .smallwidth .contentwrap, .boxed-content .contentwrap, .autogrid_wrapper.article, .ce_text_image_bar .inside, .ce_headerimage .ce_headerimage_inside, .ce_video_background .ce_video_background_inside, #offcanvas-top .offcanvas-top-inside, .ce_calltoaction .ce_calltoaction_inside, .mod_breadcrumb .mod_breadcrumb_inside, .mod_customcataloglist.cc_immorealty_slider .content-outside, .mod_customcataloglist.cc_cardealer_slider .content-outside {
+    max-width: 1200px;
+}
+
+#main .mod_article:not(.fullwidth):not(.autogrid):not(.smallwidth) {
+	padding: 0;
+}
+
+#main {
+	background-color:  #e7e7e7;
+}
+
+/* MENU TOP
+____________________________________________________________________ */
+
+
+.header.original .mainmenu ul li a {
+	font-size: 1.2em;
+}
+
+/* LISTE FILM - PAGE ACCUEIL
+____________________________________________________________________ */
+
+.layout_full .item {
+	width: 30%;
+	margin-right: 2%;
+	margin-bottom: 20px;
+	background-color: #FFF;
+	display: inline-block;
+	border-radius: 3px;
+	vertical-align: top;
+}
+
+.layout_full .item ul.file img {
+	width: 100%;
+	height: auto;
+}
+
+.layout_full .item .titre_fr {
+	font-family: jaldi;
+	font-weight: 700;
+	color: #488a99;
+	padding: 0 5px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.layout_full .item .tags {
+	font-family: "Source Sans Pro";
+	font-weight: 500;
+	padding: 0 5px;
+	line-height: 16px;
+	padding-bottom: 5px;
+	font-size: 12px;
+	color: #4b585c;
+}
+
+/* LISTE ACTUALITES
+____________________________________________________________________ */
+
+.newslist-v6.frenchflicks {
+	width: 100%;
+	height: 150px;
+}
+
+.newslist-v6.frenchflicks .news-image { width: 30%; }
+.newslist-v6.frenchflicks .news-content { width: 70%; padding: 15px; }
+.newslist-v6.frenchflicks::after { left: 30%; }
+
+.newslist-v6 .news-info::before {
+	top: -30px;
+}
+
+.newslist-v6.frenchflicks h3 a {
+	color: rgb(72, 138, 153);
+}
+
+.newslist-v6.frenchflicks h3 a:hover {
+	color: rgb(219, 174, 88);
+}
+
+.newslist-v6.frenchflicks .overlay {
+	width: 100%;
+	height: 100%;
+	background-size: 100px auto;
+	background-repeat: no-repeat;
+	background-position: center 90px;
+}
+
+/* Canal+ */
+
+#newslist_canal .overlay {
+	background-color: rgba(0, 0, 0, .40);
+	background-image: url('../logos/canalplus_international_blanc.png');
+}
+
+#newslist_tv5 .overlay {
+	background-color: rgba(0, 157, 224, .40);
+	background-image: url('../logos/tv5_monde_blanc.png');
+}
+
+
+
+
+
